@@ -5,7 +5,7 @@
 ### 🛡️ QA Leader for AI Systems · Building Quality Gates for the Agent Era
 
 [![Email](https://img.shields.io/badge/Email-aravind.durgaraj%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:aravind.durgaraj@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/YOUR-LINKEDIN)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://in.linkedin.com/in/aravind-durgaraj)
 [![Profile Views](https://komarev.com/ghpvc/?username=aravindargutus&style=for-the-badge&color=blueviolet)](https://github.com/aravindargutus)
 
 </div>
