@@ -27,6 +27,18 @@ When the system under test is an LLM or an autonomous agent, "expected output" i
 | 📚 **[catalyst-java-sdk-wiki](https://github.com/aravindargutus/TestWiki)** | LLM-optimized knowledge base — **106 docs** on the Zoho Catalyst Java SDK, structured & interlinked (Karpathy LLM Wiki pattern) | ![Docs](https://img.shields.io/badge/-LLM_Wiki-8A2BE2?style=flat-square&logo=bookstack&logoColor=white) |
 | 🖥️ **[sentinel](https://github.com/aravindargutus/sentinel)** | macOS menu bar agent that keeps AI coding sessions alive while your screen stays locked | ![Rust](https://img.shields.io/badge/-Rust-000000?style=flat-square&logo=rust&logoColor=white) |
 
+## 🔍 QA & Security Research in the Wild
+
+Beyond my own projects, I actively hunt bugs in open-source AI tooling — **27 issues and 32 PRs** across projects including Anthropic's claude-plugins, Google's agents-cli, Alibaba's open-code-review, PatterAI, and the **W3C webmcp** specification.
+
+The work spans two sides of quality:
+
+- **🛡️ Security research** — path traversal & arbitrary file write, SSRF-guard bypasses, git option injection (RCE), `pull_request_target` secret exposure, fail-open policy governance, and prompt-injection-to-toll-fraud chains. Reported responsibly with CWE classification and exploit analysis; several triaged by maintainers as **P0-critical**.
+
+- **🧪 Correctness & spec defects** — inverted algorithm assertions and wrong struct insertions in a W3C-track spec, cosine-similarity-vs-inner-product scoring bugs, silent-failure filename mismatches, and consistency-check gaps across integrations.
+
+> This is QA where "expected output" isn't obvious — you have to reason about what *should* happen, then prove what *does*.
+
 ## 🧰 Tech Arsenal
 
 **Quality Engineering**
