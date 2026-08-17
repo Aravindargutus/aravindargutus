@@ -1,3 +1,9 @@
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="dark.svg">
+      <source media="(prefers-color-scheme: light)" srcset="light.svg">
+      <img src="dark.svg" alt="Aravind Durgaraj — QA Leader for AI Systems">
+</picture>
+
 <div align="center">
 
 # Hi, I'm Aravind Durgaraj 👋
