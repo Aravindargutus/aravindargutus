@@ -84,7 +84,7 @@
 
   <g font-size="14.5">
     <text x="620" y="206" fill="#94A3B8">Location</text><text x="1150" y="206" text-anchor="end" fill="#F8FAFC">Chennai, India</text>
-    <text x="620" y="232" fill="#94A3B8">Education</text><text x="1150" y="232" text-anchor="end" fill="#F8FAFC">B.Tech — CS</text>
+    <text x="620" y="232" fill="#94A3B8">Education</text><text x="1150" y="232" text-anchor="end" fill="#F8FAFC">B.Tech — Information Technology</text>
     <text x="620" y="258" fill="#94A3B8">Current Focus</text><text x="1150" y="258" text-anchor="end" fill="#F8FAFC">Quality Gates for the Agent Era</text>
     <text x="620" y="284" fill="#94A3B8">Portfolio</text><text x="1150" y="284" text-anchor="end" fill="#F8FAFC">videoportfolio.vercel.app</text>
     <text x="620" y="310" fill="#94A3B8">Email</text><text x="1150" y="310" text-anchor="end" fill="#F8FAFC">aravind.durgaraj@gmail.com</text>
@@ -115,6 +115,6 @@
   </g>
   <g font-size="12" fill="#94A3B8">
     <text x="620" y="524">Aravindargutus</text>
-    <text x="720" y="524">in/aravind-durgaraj</text>
+    <text x="720" y="524">https://github.com/Aravindargutus</text>
   </g>
 </svg>
