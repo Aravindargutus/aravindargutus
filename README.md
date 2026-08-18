@@ -106,3 +106,13 @@ class AravindDurgaraj(QALeader):
 *Let's talk about making your AI products testable.*
 
 </div>
+
+<img
+
+    src="https://raw.githubusercontent.com/Sushmitadasari/Sushmitadasari/main/dist/github-jet.svg"
+
+    alt="GitHub Jet Heatmap"
+
+    width="100%"
+
+  />
