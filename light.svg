@@ -83,7 +83,7 @@
   <text x="620" y="164" font-size="17" fill="url(#accent)" font-weight="600">QA Leader for AI Systems<tspan fill="#06B6D4"> ▊</tspan></text>
 
   <g font-size="14.5">
-    <text x="620" y="206" fill="#475569">Location</text><text x="1150" y="206" text-anchor="end" fill="#0F172A">Bengaluru, India</text>
+    <text x="620" y="206" fill="#475569">Location</text><text x="1150" y="206" text-anchor="end" fill="#0F172A">Chennai, India</text>
     <text x="620" y="232" fill="#475569">Education</text><text x="1150" y="232" text-anchor="end" fill="#0F172A">B.Tech — CS</text>
     <text x="620" y="258" fill="#475569">Current Focus</text><text x="1150" y="258" text-anchor="end" fill="#0F172A">Quality Gates for the Agent Era</text>
     <text x="620" y="284" fill="#475569">Portfolio</text><text x="1150" y="284" text-anchor="end" fill="#0F172A">videoportfolio.vercel.app</text>
