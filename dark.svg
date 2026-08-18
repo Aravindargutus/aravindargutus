@@ -1,10 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 610" font-family="'JetBrains Mono','Fira Code',ui-monospace,monospace">
   <defs>
     <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#7C3AED"/><stop offset="0.5" stop-color="#22D3EE"/><stop offset="1" stop-color="#10B981"/>
+      <stop offset="0" stop-color="#7C3AED"><animate attributeName="stop-color" values="#7C3AED;#22D3EE;#10B981;#7C3AED" dur="9s" repeatCount="indefinite"/></stop><stop offset="0.5" stop-color="#22D3EE"><animate attributeName="stop-color" values="#22D3EE;#10B981;#7C3AED;#22D3EE" dur="9s" repeatCount="indefinite"/></stop><stop offset="1" stop-color="#10B981"><animate attributeName="stop-color" values="#10B981;#7C3AED;#22D3EE;#10B981" dur="9s" repeatCount="indefinite"/></stop>
     </linearGradient>
     <linearGradient id="asciiGrad" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#7C3AED"/><stop offset="0.5" stop-color="#22D3EE"/><stop offset="1" stop-color="#10B981"/>
+      <stop offset="0" stop-color="#7C3AED"><animate attributeName="stop-color" values="#7C3AED;#22D3EE;#10B981;#7C3AED" dur="9s" repeatCount="indefinite"/></stop><stop offset="0.5" stop-color="#22D3EE"><animate attributeName="stop-color" values="#22D3EE;#10B981;#7C3AED;#22D3EE" dur="9s" repeatCount="indefinite"/></stop><stop offset="1" stop-color="#10B981"><animate attributeName="stop-color" values="#10B981;#7C3AED;#22D3EE;#10B981" dur="9s" repeatCount="indefinite"/></stop>
     </linearGradient>
     <linearGradient id="border" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#7C3AED" stop-opacity="0.5"/><stop offset="0.5" stop-color="#22D3EE" stop-opacity="0.4"/><stop offset="1" stop-color="#10B981" stop-opacity="0.3"/>
@@ -16,6 +16,7 @@
       <feGaussianBlur stdDeviation="1.4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
     <clipPath id="lpclip"><rect x="40" y="96" width="400" height="476" rx="16"/></clipPath>
+    <clipPath id="windowClip"><rect x="16" y="16" width="1148" height="578" rx="20"/></clipPath>
       <linearGradient id="scanGrad" x1="0%" y1="0%" x2="0%" y2="100%">
       <stop offset="0%" stop-color="#22D3EE" stop-opacity="0"/>
       <stop offset="45%" stop-color="#22D3EE" stop-opacity="0.35"/>
@@ -45,49 +46,49 @@
   <text x="52" y="92" font-size="12" fill="#94A3B8" letter-spacing="3">VISUAL.MAP</text>
   <rect x="40" y="96" width="400" height="476" rx="16" fill="#030712" fill-opacity="0.5" stroke="url(#border)" stroke-width="1.2"/>
   <g filter="url(#asciiGlow)" clip-path="url(#lpclip)">
-    <text x="107.1" y="129.9" font-size="11.66" fill="url(#asciiGrad)" xml:space="preserve" font-family="'JetBrains Mono',monospace">                        *%oo=         </text>
-    <text x="107.1" y="141.8" font-size="11.66" fill="url(#asciiGrad)" xml:space="preserve" font-family="'JetBrains Mono',monospace">                        :o*+-         </text>
-    <text x="107.1" y="153.7" font-size="11.66" fill="url(#asciiGrad)" xml:space="preserve" font-family="'JetBrains Mono',monospace">           .. ..::++-===- ::          </text>
-    <text x="107.1" y="165.6" font-size="11.66" fill="url(#asciiGrad)" xml:space="preserve" font-family="'JetBrains Mono',monospace">      *o#@%%%%%%%#%@%%@@@%#=          </text>
-    <text x="107.1" y="177.5" font-size="11.66" fill="url(#asciiGrad)" xml:space="preserve" font-family="'JetBrains Mono',monospace">    .o@@@%@@@@@@@@@%@@%%%@@#-=        </text>
-    <text x="107.1" y="189.4" font-size="11.66" fill="url(#asciiGrad)" xml:space="preserve" font-family="'JetBrains Mono',monospace"> . +#%%%%@%%%%%%%%%%%%%%%%%%@#        </text>
-    <text x="107.1" y="201.2" font-size="11.66" fill="url(#asciiGrad)" xml:space="preserve" font-family="'JetBrains Mono',monospace">=#@*#%%%@%%%%@@@@@@@@@@@@%@@%%        </text>
-    <text x="107.1" y="213.1" font-size="11.66" fill="url(#asciiGrad)" xml:space="preserve" font-family="'JetBrains Mono',monospace">+#%#%@%%@@@@@@%%########%@@@%%*:      </text>
-    <text x="107.1" y="225.0" font-size="11.66" fill="url(#asciiGrad)" xml:space="preserve" font-family="'JetBrains Mono',monospace">.%%%@@@@%%%#o**+++++++++*#%%@%@#      </text>
-    <text x="107.1" y="236.9" font-size="11.66" fill="url(#asciiGrad)" xml:space="preserve" font-family="'JetBrains Mono',monospace"> %@@@@%#o*+==-=--===+++++*%%%@%%.     </text>
-    <text x="107.1" y="248.8" font-size="11.66" fill="url(#asciiGrad)" xml:space="preserve" font-family="'JetBrains Mono',monospace"> %@%%%#o*+=-------==+++++*#@%%%%+     </text>
-    <text x="107.1" y="260.7" font-size="11.66" fill="url(#asciiGrad)" xml:space="preserve" font-family="'JetBrains Mono',monospace"> %@@%%#oo+=---:-----===+++*#@@%%*     </text>
-    <text x="107.1" y="272.6" font-size="11.66" fill="url(#asciiGrad)" xml:space="preserve" font-family="'JetBrains Mono',monospace"> #@%@%#o*=-:::.:::-:.+*-*+=+*%@@o     </text>
-    <text x="107.1" y="284.5" font-size="11.66" fill="url(#asciiGrad)" xml:space="preserve" font-family="'JetBrains Mono',monospace"> =@@#o*+::.=++==+%%##%#o@%:::-+#%     </text>
-    <text x="107.1" y="296.4" font-size="11.66" fill="url(#asciiGrad)" xml:space="preserve" font-family="'JetBrains Mono',monospace">  %oo##+*#*#%=*-+%@%@%##%@#-+-=#=+o   </text>
-    <text x="107.1" y="308.2" font-size="11.66" fill="url(#asciiGrad)" xml:space="preserve" font-family="'JetBrains Mono',monospace">  -*@@%%%oo#@+o-+*%@@@@%%%#-==.*+-**  </text>
-    <text x="107.1" y="320.1" font-size="11.66" fill="url(#asciiGrad)" xml:space="preserve" font-family="'JetBrains Mono',monospace">  =*%@@@@@@@#*+-==+oo###o+----:-#o=o  </text>
-    <text x="107.1" y="332.0" font-size="11.66" fill="url(#asciiGrad)" xml:space="preserve" font-family="'JetBrains Mono',monospace"> -@*+%##%%#*oo+-==+*=-=-------:-=*++  </text>
-    <text x="107.1" y="343.9" font-size="11.66" fill="url(#asciiGrad)" xml:space="preserve" font-family="'JetBrains Mono',monospace"> -#o++*+*+==#o*--+=+*--:::----:-==o   </text>
-    <text x="107.1" y="355.8" font-size="11.66" fill="url(#asciiGrad)" xml:space="preserve" font-family="'JetBrains Mono',monospace">  #o*+++----*#%%%%%#+==----------+-   </text>
-    <text x="107.1" y="367.7" font-size="11.66" fill="url(#asciiGrad)" xml:space="preserve" font-family="'JetBrains Mono',monospace">  =%*+++=+*o#@@@@@@@%%#o+===---=.     </text>
-    <text x="107.1" y="379.6" font-size="11.66" fill="url(#asciiGrad)" xml:space="preserve" font-family="'JetBrains Mono',monospace">   o#****#%@@%%%#%##%%@@#=+=-:--      </text>
-    <text x="107.1" y="391.5" font-size="11.66" fill="url(#asciiGrad)" xml:space="preserve" font-family="'JetBrains Mono',monospace">    =***o@@%%#o*****++*oo++=-:-.      </text>
-    <text x="107.1" y="403.4" font-size="11.66" fill="url(#asciiGrad)" xml:space="preserve" font-family="'JetBrains Mono',monospace">      =oo##oo#%%%%%#++**+++=++-.:     </text>
-    <text x="107.1" y="415.2" font-size="11.66" fill="url(#asciiGrad)" xml:space="preserve" font-family="'JetBrains Mono',monospace">       :oooooo%%%%#*+++*oo*o#*+==-    </text>
-    <text x="107.1" y="427.1" font-size="11.66" fill="url(#asciiGrad)" xml:space="preserve" font-family="'JetBrains Mono',monospace">         o##oo%%%%%%#oo%@%%%o**++=+-++</text>
-    <text x="107.1" y="439.0" font-size="11.66" fill="url(#asciiGrad)" xml:space="preserve" font-family="'JetBrains Mono',monospace">          o%@@@@@@@@@@@@@%#o***+++#o*#</text>
-    <text x="107.1" y="450.9" font-size="11.66" fill="url(#asciiGrad)" xml:space="preserve" font-family="'JetBrains Mono',monospace">          -o#%@@@@@@@%%%o*+++++++*o**-</text>
-    <text x="107.1" y="462.8" font-size="11.66" fill="url(#asciiGrad)" xml:space="preserve" font-family="'JetBrains Mono',monospace">           o**o#%%%%%#o*+++++++**oo-+ </text>
-    <text x="107.1" y="474.7" font-size="11.66" fill="url(#asciiGrad)" xml:space="preserve" font-family="'JetBrains Mono',monospace">           :****o###o***+++++++***==  </text>
-    <text x="107.1" y="486.6" font-size="11.66" fill="url(#asciiGrad)" xml:space="preserve" font-family="'JetBrains Mono',monospace">            +=*********++++++**+o+:   </text>
-    <text x="107.1" y="498.5" font-size="11.66" fill="url(#asciiGrad)" xml:space="preserve" font-family="'JetBrains Mono',monospace">            -*============++++=*+:    </text>
-    <text x="107.1" y="510.4" font-size="11.66" fill="url(#asciiGrad)" xml:space="preserve" font-family="'JetBrains Mono',monospace">             =*+========+===--*+      </text>
-    <text x="107.1" y="522.2" font-size="11.66" fill="url(#asciiGrad)" xml:space="preserve" font-family="'JetBrains Mono',monospace">               *#*+++++=-::.=-        </text>
-    <text x="107.1" y="534.1" font-size="11.66" fill="url(#asciiGrad)" xml:space="preserve" font-family="'JetBrains Mono',monospace">                 =+-:::-==.-          </text>
-    <text x="107.1" y="546.0" font-size="11.66" fill="url(#asciiGrad)" xml:space="preserve" font-family="'JetBrains Mono',monospace">                    ..=@@@=           </text>
+    <text opacity="0" x="107.1" y="129.9" font-size="11.66" fill="url(#asciiGrad)" xml:space="preserve" font-family="'JetBrains Mono',monospace">                        *%oo=         <animate attributeName="opacity" from="0" to="1" dur="0.01s" begin="0.0s" fill="freeze"/></text>
+    <text opacity="0" x="107.1" y="141.8" font-size="11.66" fill="url(#asciiGrad)" xml:space="preserve" font-family="'JetBrains Mono',monospace">                        :o*+-         <animate attributeName="opacity" from="0" to="1" dur="0.01s" begin="0.05s" fill="freeze"/></text>
+    <text opacity="0" x="107.1" y="153.7" font-size="11.66" fill="url(#asciiGrad)" xml:space="preserve" font-family="'JetBrains Mono',monospace">           .. ..::++-===- ::          <animate attributeName="opacity" from="0" to="1" dur="0.01s" begin="0.1s" fill="freeze"/></text>
+    <text opacity="0" x="107.1" y="165.6" font-size="11.66" fill="url(#asciiGrad)" xml:space="preserve" font-family="'JetBrains Mono',monospace">      *o#@%%%%%%%#%@%%@@@%#=          <animate attributeName="opacity" from="0" to="1" dur="0.01s" begin="0.15s" fill="freeze"/></text>
+    <text opacity="0" x="107.1" y="177.5" font-size="11.66" fill="url(#asciiGrad)" xml:space="preserve" font-family="'JetBrains Mono',monospace">    .o@@@%@@@@@@@@@%@@%%%@@#-=        <animate attributeName="opacity" from="0" to="1" dur="0.01s" begin="0.2s" fill="freeze"/></text>
+    <text opacity="0" x="107.1" y="189.4" font-size="11.66" fill="url(#asciiGrad)" xml:space="preserve" font-family="'JetBrains Mono',monospace"> . +#%%%%@%%%%%%%%%%%%%%%%%%@#        <animate attributeName="opacity" from="0" to="1" dur="0.01s" begin="0.25s" fill="freeze"/></text>
+    <text opacity="0" x="107.1" y="201.2" font-size="11.66" fill="url(#asciiGrad)" xml:space="preserve" font-family="'JetBrains Mono',monospace">=#@*#%%%@%%%%@@@@@@@@@@@@%@@%%        <animate attributeName="opacity" from="0" to="1" dur="0.01s" begin="0.3s" fill="freeze"/></text>
+    <text opacity="0" x="107.1" y="213.1" font-size="11.66" fill="url(#asciiGrad)" xml:space="preserve" font-family="'JetBrains Mono',monospace">+#%#%@%%@@@@@@%%########%@@@%%*:      <animate attributeName="opacity" from="0" to="1" dur="0.01s" begin="0.35s" fill="freeze"/></text>
+    <text opacity="0" x="107.1" y="225.0" font-size="11.66" fill="url(#asciiGrad)" xml:space="preserve" font-family="'JetBrains Mono',monospace">.%%%@@@@%%%#o**+++++++++*#%%@%@#      <animate attributeName="opacity" from="0" to="1" dur="0.01s" begin="0.4s" fill="freeze"/></text>
+    <text opacity="0" x="107.1" y="236.9" font-size="11.66" fill="url(#asciiGrad)" xml:space="preserve" font-family="'JetBrains Mono',monospace"> %@@@@%#o*+==-=--===+++++*%%%@%%.     <animate attributeName="opacity" from="0" to="1" dur="0.01s" begin="0.45s" fill="freeze"/></text>
+    <text opacity="0" x="107.1" y="248.8" font-size="11.66" fill="url(#asciiGrad)" xml:space="preserve" font-family="'JetBrains Mono',monospace"> %@%%%#o*+=-------==+++++*#@%%%%+     <animate attributeName="opacity" from="0" to="1" dur="0.01s" begin="0.5s" fill="freeze"/></text>
+    <text opacity="0" x="107.1" y="260.7" font-size="11.66" fill="url(#asciiGrad)" xml:space="preserve" font-family="'JetBrains Mono',monospace"> %@@%%#oo+=---:-----===+++*#@@%%*     <animate attributeName="opacity" from="0" to="1" dur="0.01s" begin="0.55s" fill="freeze"/></text>
+    <text opacity="0" x="107.1" y="272.6" font-size="11.66" fill="url(#asciiGrad)" xml:space="preserve" font-family="'JetBrains Mono',monospace"> #@%@%#o*=-:::.:::-:.+*-*+=+*%@@o     <animate attributeName="opacity" from="0" to="1" dur="0.01s" begin="0.6s" fill="freeze"/></text>
+    <text opacity="0" x="107.1" y="284.5" font-size="11.66" fill="url(#asciiGrad)" xml:space="preserve" font-family="'JetBrains Mono',monospace"> =@@#o*+::.=++==+%%##%#o@%:::-+#%     <animate attributeName="opacity" from="0" to="1" dur="0.01s" begin="0.65s" fill="freeze"/></text>
+    <text opacity="0" x="107.1" y="296.4" font-size="11.66" fill="url(#asciiGrad)" xml:space="preserve" font-family="'JetBrains Mono',monospace">  %oo##+*#*#%=*-+%@%@%##%@#-+-=#=+o   <animate attributeName="opacity" from="0" to="1" dur="0.01s" begin="0.7s" fill="freeze"/></text>
+    <text opacity="0" x="107.1" y="308.2" font-size="11.66" fill="url(#asciiGrad)" xml:space="preserve" font-family="'JetBrains Mono',monospace">  -*@@%%%oo#@+o-+*%@@@@%%%#-==.*+-**  <animate attributeName="opacity" from="0" to="1" dur="0.01s" begin="0.75s" fill="freeze"/></text>
+    <text opacity="0" x="107.1" y="320.1" font-size="11.66" fill="url(#asciiGrad)" xml:space="preserve" font-family="'JetBrains Mono',monospace">  =*%@@@@@@@#*+-==+oo###o+----:-#o=o  <animate attributeName="opacity" from="0" to="1" dur="0.01s" begin="0.8s" fill="freeze"/></text>
+    <text opacity="0" x="107.1" y="332.0" font-size="11.66" fill="url(#asciiGrad)" xml:space="preserve" font-family="'JetBrains Mono',monospace"> -@*+%##%%#*oo+-==+*=-=-------:-=*++  <animate attributeName="opacity" from="0" to="1" dur="0.01s" begin="0.85s" fill="freeze"/></text>
+    <text opacity="0" x="107.1" y="343.9" font-size="11.66" fill="url(#asciiGrad)" xml:space="preserve" font-family="'JetBrains Mono',monospace"> -#o++*+*+==#o*--+=+*--:::----:-==o   <animate attributeName="opacity" from="0" to="1" dur="0.01s" begin="0.9s" fill="freeze"/></text>
+    <text opacity="0" x="107.1" y="355.8" font-size="11.66" fill="url(#asciiGrad)" xml:space="preserve" font-family="'JetBrains Mono',monospace">  #o*+++----*#%%%%%#+==----------+-   <animate attributeName="opacity" from="0" to="1" dur="0.01s" begin="0.95s" fill="freeze"/></text>
+    <text opacity="0" x="107.1" y="367.7" font-size="11.66" fill="url(#asciiGrad)" xml:space="preserve" font-family="'JetBrains Mono',monospace">  =%*+++=+*o#@@@@@@@%%#o+===---=.     <animate attributeName="opacity" from="0" to="1" dur="0.01s" begin="1.0s" fill="freeze"/></text>
+    <text opacity="0" x="107.1" y="379.6" font-size="11.66" fill="url(#asciiGrad)" xml:space="preserve" font-family="'JetBrains Mono',monospace">   o#****#%@@%%%#%##%%@@#=+=-:--      <animate attributeName="opacity" from="0" to="1" dur="0.01s" begin="1.05s" fill="freeze"/></text>
+    <text opacity="0" x="107.1" y="391.5" font-size="11.66" fill="url(#asciiGrad)" xml:space="preserve" font-family="'JetBrains Mono',monospace">    =***o@@%%#o*****++*oo++=-:-.      <animate attributeName="opacity" from="0" to="1" dur="0.01s" begin="1.1s" fill="freeze"/></text>
+    <text opacity="0" x="107.1" y="403.4" font-size="11.66" fill="url(#asciiGrad)" xml:space="preserve" font-family="'JetBrains Mono',monospace">      =oo##oo#%%%%%#++**+++=++-.:     <animate attributeName="opacity" from="0" to="1" dur="0.01s" begin="1.15s" fill="freeze"/></text>
+    <text opacity="0" x="107.1" y="415.2" font-size="11.66" fill="url(#asciiGrad)" xml:space="preserve" font-family="'JetBrains Mono',monospace">       :oooooo%%%%#*+++*oo*o#*+==-    <animate attributeName="opacity" from="0" to="1" dur="0.01s" begin="1.2s" fill="freeze"/></text>
+    <text opacity="0" x="107.1" y="427.1" font-size="11.66" fill="url(#asciiGrad)" xml:space="preserve" font-family="'JetBrains Mono',monospace">         o##oo%%%%%%#oo%@%%%o**++=+-++<animate attributeName="opacity" from="0" to="1" dur="0.01s" begin="1.25s" fill="freeze"/></text>
+    <text opacity="0" x="107.1" y="439.0" font-size="11.66" fill="url(#asciiGrad)" xml:space="preserve" font-family="'JetBrains Mono',monospace">          o%@@@@@@@@@@@@@%#o***+++#o*#<animate attributeName="opacity" from="0" to="1" dur="0.01s" begin="1.3s" fill="freeze"/></text>
+    <text opacity="0" x="107.1" y="450.9" font-size="11.66" fill="url(#asciiGrad)" xml:space="preserve" font-family="'JetBrains Mono',monospace">          -o#%@@@@@@@%%%o*+++++++*o**-<animate attributeName="opacity" from="0" to="1" dur="0.01s" begin="1.35s" fill="freeze"/></text>
+    <text opacity="0" x="107.1" y="462.8" font-size="11.66" fill="url(#asciiGrad)" xml:space="preserve" font-family="'JetBrains Mono',monospace">           o**o#%%%%%#o*+++++++**oo-+ <animate attributeName="opacity" from="0" to="1" dur="0.01s" begin="1.4s" fill="freeze"/></text>
+    <text opacity="0" x="107.1" y="474.7" font-size="11.66" fill="url(#asciiGrad)" xml:space="preserve" font-family="'JetBrains Mono',monospace">           :****o###o***+++++++***==  <animate attributeName="opacity" from="0" to="1" dur="0.01s" begin="1.45s" fill="freeze"/></text>
+    <text opacity="0" x="107.1" y="486.6" font-size="11.66" fill="url(#asciiGrad)" xml:space="preserve" font-family="'JetBrains Mono',monospace">            +=*********++++++**+o+:   <animate attributeName="opacity" from="0" to="1" dur="0.01s" begin="1.5s" fill="freeze"/></text>
+    <text opacity="0" x="107.1" y="498.5" font-size="11.66" fill="url(#asciiGrad)" xml:space="preserve" font-family="'JetBrains Mono',monospace">            -*============++++=*+:    <animate attributeName="opacity" from="0" to="1" dur="0.01s" begin="1.55s" fill="freeze"/></text>
+    <text opacity="0" x="107.1" y="510.4" font-size="11.66" fill="url(#asciiGrad)" xml:space="preserve" font-family="'JetBrains Mono',monospace">             =*+========+===--*+      <animate attributeName="opacity" from="0" to="1" dur="0.01s" begin="1.6s" fill="freeze"/></text>
+    <text opacity="0" x="107.1" y="522.2" font-size="11.66" fill="url(#asciiGrad)" xml:space="preserve" font-family="'JetBrains Mono',monospace">               *#*+++++=-::.=-        <animate attributeName="opacity" from="0" to="1" dur="0.01s" begin="1.65s" fill="freeze"/></text>
+    <text opacity="0" x="107.1" y="534.1" font-size="11.66" fill="url(#asciiGrad)" xml:space="preserve" font-family="'JetBrains Mono',monospace">                 =+-:::-==.-          <animate attributeName="opacity" from="0" to="1" dur="0.01s" begin="1.7s" fill="freeze"/></text>
+    <text opacity="0" x="107.1" y="546.0" font-size="11.66" fill="url(#asciiGrad)" xml:space="preserve" font-family="'JetBrains Mono',monospace">                    ..=@@@=           <animate attributeName="opacity" from="0" to="1" dur="0.01s" begin="1.75s" fill="freeze"/></text>
   </g>
   <rect x="40" y="96" width="400" height="130" rx="16" fill="#F8FAFC" fill-opacity="0.03"/>
 
   <!-- RIGHT: terminal info -->
   <text x="620" y="92" font-size="12" fill="#94A3B8" letter-spacing="3">SYSTEM.INFO</text>
   <text x="620" y="130" font-size="30" font-weight="700" fill="#F8FAFC">Hi, I'm <tspan fill="url(#accent)">Aravind Durgaraj</tspan></text>
-  <text x="620" y="164" font-size="17" fill="url(#accent)" font-weight="600">QA Leader for AI Systems<tspan fill="#22D3EE"> ▊<animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1.06s" repeatCount="indefinite"/></tspan></text>
+  <text x="620" y="164" font-size="17" fill="url(#accent)" font-weight="600">QA Leader for AI Systems<tspan fill="#22D3EE"> ▊<animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1s" repeatCount="indefinite"/></tspan></text>
 
   <g font-size="14.5">
     <text x="620" y="206" fill="#94A3B8">Location</text><text x="1150" y="206" text-anchor="end" fill="#F8FAFC">Chennai, India</text>
@@ -125,7 +126,11 @@
     <text x="720" y="524">https://github.com/Aravindargutus</text>
   </g>
   <!-- animated scan sweep -->
-  <rect x="0" y="-70" width="1180" height="70" fill="url(#scanGrad)" opacity="0.7" style="mix-blend-mode:screen">
-    <animateTransform attributeName="transform" type="translate" from="0 -70" to="0 680" dur="4.2s" repeatCount="indefinite"/>
-  </rect>
+  <g clip-path="url(#windowClip)">
+    <g>
+      <rect x="16" y="0" width="1148" height="70" fill="url(#scanGrad)" opacity="0.7" style="mix-blend-mode:screen"/>
+      <rect x="16" y="34" width="1148" height="1.6" fill="#7DD3FC" opacity="0.85" style="mix-blend-mode:screen"/>
+      <animateTransform attributeName="transform" type="translate" from="0 -70" to="0 680" dur="4.2s" repeatCount="indefinite"/>
+    </g>
+  </g>
 </svg>
