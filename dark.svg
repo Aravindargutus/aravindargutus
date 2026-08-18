@@ -87,7 +87,7 @@
   <!-- RIGHT: terminal info -->
   <text x="620" y="92" font-size="12" fill="#94A3B8" letter-spacing="3">SYSTEM.INFO</text>
   <text x="620" y="130" font-size="30" font-weight="700" fill="#F8FAFC">Hi, I'm <tspan fill="url(#accent)">Aravind Durgaraj</tspan></text>
-  <text x="620" y="164" font-size="17" fill="url(#accent)" font-weight="600">QA Leader for AI Systems<tspan fill="#22D3EE"> ▊</tspan></text>
+  <text x="620" y="164" font-size="17" fill="url(#accent)" font-weight="600">QA Leader for AI Systems<tspan fill="#22D3EE"> ▊<animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1.06s" repeatCount="indefinite"/></tspan></text>
 
   <g font-size="14.5">
     <text x="620" y="206" fill="#94A3B8">Location</text><text x="1150" y="206" text-anchor="end" fill="#F8FAFC">Chennai, India</text>
